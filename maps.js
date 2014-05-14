@@ -1175,6 +1175,21 @@ function World11(map) {
      
 
 
+     var pipe1 = "";
+      pipe1 += "<div style='margin-left:150;max-width:350px;max-height:189px;background-color:#d64d00;border-radius:7px;box-shadow:3px 3px #efb28b inset, -3px -3px black inset;";
+      pipe1 += "background-image: url(\"Theme/Greeting.gif\"), url(\"Theme/Greeting.gif\"), url(\"Theme/Greeting.gif\"), url(\"Theme/Greeting.gif\");";
+      pipe1 += "background-repeat: no-repeat;";
+      pipe1 += "background-position: 7px 7px, 336px 7px, 7px 168px, 336px 168px";
+      pipe1 += "'>";
+
+      pipe1 += "  <p style='text-align:left;padding:7px 0 11px 11px;>";
+      pipe1 += "    <br><br>"; // To do: make this not so font dependant
+      pipe1 += "    <span style='font-size:24px'>Proj1</span>";
+      // pipe1 += "    <br><br>"; // To do: make this not so font dependant
+      // pipe1 += "    DANIO BROS.";
+      pipe1 += "  </p>";
+      pipe1 += "</div>";
+
 
 
       var fact = "";
@@ -1213,19 +1228,19 @@ function World11(map) {
       fact2 += ";margin-top:50px;'>";
       fact2 += "  <p style='text-align:left;padding:7px 0 11px 11px;>";
       fact2 += "    <br><br>"; // To do: make this not so font dependant
-      fact2 += "    <span style='font-size:24px'> An EE/CS major </span>";
+      fact2 += "    <span style='font-size:24px'> An EE/CS major @ UCB</span>";
       fact2 += "  </p>";
       fact2 += "</div>";
 
       var fact3 = "";
-      fact3 += "<div style='margin-left:-120px;width:350px;max-height:189px;background-color:#d64d00;border-radius:7px;box-shadow:3px 3px #efb28b inset, -3px -3px black inset;";
+      fact3 += "<div style='margin-left:-120px;width:400px;max-height:189px;background-color:#d64d00;border-radius:7px;box-shadow:3px 3px #efb28b inset, -3px -3px black inset;";
       fact3 += "background-image: url(\"Theme/Greeting.gif\"), url(\"Theme/Greeting.gif\"), url(\"Theme/Greeting.gif\"), url(\"Theme/Greeting.gif\");";
       fact3 += "background-repeat: no-repeat;";
-      fact3 += "background-position: 7px 7px, 336px 7px, 7px 168px, 336px 168px";
+      fact3 += "background-position: 7px 7px, 386px 7px, 7px 168px, 336px 168px";
       fact3 += ";margin-top:100px;'>";
       fact3 += "  <p style='text-align:left;padding:7px 0 11px 11px;>";
       fact3 += "    <br><br>"; // To do: make this not so font dependant
-      fact3 += "    <span style='font-size:24px'> At UC Berkeley. </span>";
+      fact3 += "    <span style='font-size:24px'> Enter the pipes to see my projects. </span>";
       fact3 += "  </p>";
       fact3 += "</div>";
 
@@ -1278,6 +1293,7 @@ function World11(map) {
       pushPreThing(Block, 184, jumplev1, Coin, false, fact2);
       pushPreThing(Brick, 192, jumplev1);
       pushPrePipe(224, 0, 16, false, 7, 1); // pipe 1
+      // pushPreText(pipe1, 224, -15);
 
       // pushPreText(greeter, 224, 91);
 

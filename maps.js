@@ -1420,7 +1420,7 @@ function World11(map) {
       fact += "background-position: 7px 7px, 886px 7px, 7px 168px, 336px 168px";
       fact += ";margin-top:-350px;'>";
 
-      fact += "<iframe id='game' src='http://acce.net16.net/ttst.html'></iframe>";
+      fact += "<iframe id='game' src='http://2011dkang1.github.io/ttst/'></iframe>";
 
       // fact += "  <p style='text-align:left;padding:7px 0 11px 11px;>";
       // fact += "    <br><br>"; // To do: make this not so font dependant

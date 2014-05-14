@@ -1420,7 +1420,7 @@ function World11(map) {
       fact += "background-position: 7px 7px, 886px 7px, 7px 168px, 336px 168px";
       fact += ";margin-top:-350px;'>";
 
-      fact += "<iframe id='game' src='http://2011dkang1.github.io/ttst/'></iframe>";
+      fact += "<iframe style='width:100%' frameBorder='0' src='http://2011dkang1.github.io/ttst/'></iframe>";
 
       // fact += "  <p style='text-align:left;padding:7px 0 11px 11px;>";
       // fact += "    <br><br>"; // To do: make this not so font dependant
@@ -1445,7 +1445,7 @@ function World11(map) {
 
 
       var fact1 = factBeg;
-      fact1 += "    <span style='font-size:24px'> I made use of APIs available from Google and Microsoft. You simply choose a language and press the microphone. When prompted say something in English and then you will hear what you said in the language of your choice.</span>";
+      fact1 += "    <span style='font-size:24px'> Easy Translator (Make sure you are using Google Chrome): <br> 1) Turn up your volume and choose a language <br> 2) Click the microphone and say something in English <br> 3) Listen to what you just said in that language </span>";
       fact1 += factEnd;
 
 
